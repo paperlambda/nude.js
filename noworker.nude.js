@@ -321,8 +321,13 @@
 			if(resultFn){
 				resultFn(result);
 			}else{
-				if(result)
+				if(result){
 					console.log("the picture contains nudity");
+
+				} else {
+					console.log("the picture DO NOT contain nudity");
+
+				}
 			}
 
 		},
